@@ -1,8 +1,7 @@
-public class ContaBancaria extends Fintech {
-	private String numeroConta;
-	private String nomeTitular;
-	private String cpfCnpj;
-	private double saldo;
-
-	public ContaBancaria(String numeroConta, String nomeTitular, String cpfCnpj) {
-		this.numero
+	public class Main {
+		public static void main(String[] args) {
+			Pessoa p = new Pessoa("Ruan", "115.302.289-30");
+			p.setTelefone("+5547984676946");
+			System.out.println("Ola" + p.getNome());
+		}
+	}
